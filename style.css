@@ -54,25 +54,33 @@ main{
 .ms-bg-blue{
     background-color: #1b72e8;
 }
-#ms-main-header span{
+.ms-bg-span{
     background-color: #165bba;
     border-radius: .9375rem;
 }
+.ms-btn{
+    border-color: #fff;
+}
+.ms-ghost{
+    display: none;
+}
 /* MEDIAQUERI */
+@media (min-width: 767.98px){
+    #ms-main-header{
+        height: 9.5rem;
+    }
+}
 @media (min-width: 992px) {
-    .ms-small-logo{
+    .ms-small-logo, .ms-none{
         display: none;
     }
-    .ms-big-logo{
-        display: block;
-    }
-    .ms-fa-block{
+    .ms-big-logo, .ms-fa-block{
         display: block;
     }
     #ms-aside{
         width: 9.375rem;
     }
-    #ms-aside span{
+    #ms-aside span, .ms-ghost{
         display: inline-block;
     }
 }

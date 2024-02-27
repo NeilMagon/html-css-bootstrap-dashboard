@@ -91,25 +91,10 @@
         <!-- MAIN-HEADER -->
         <section id="ms-main-header" class="ms-bg-blue">
             <div class="container-fluid text-white py-4">
-                <div>
-                    <div>
-                        <div class="d-flex align-items-center">
-                            <h1 class="pe-2">Boolean</h1>
-                            <span class="py-1 px-2">Piano blaze</span>
-                        </div>
-                        <div class="d-flex align-items-center">
-                            <span class="py-1 px-2">3 app</span>
-                            <i class="p-1 fa-solid fa-angles-right"></i>
-                            <span class="py-1 px-2">+</span>
-                        </div>
-                    </div>
-                    <div class="pt-3">
-                        <p>Studenti online negli ultimi 30 minuti</p>
-                        <p class="fs-4">125</p>
-                    </div>
-                    <div class="d-flex">
-                        <p>Nuovo Studente</p>
-                        <button class="btn text-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">+</button>
+                <div class="row gy-3">
+                    <div class="col-12 col-md-4 col-lg-3 order-md-2">
+                        <span>Nuovo Studente</span>
+                        <button class="btn ms-btn text-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">+</button>
                         <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                             <div class="offcanvas-header">
                                 <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
@@ -119,6 +104,22 @@
                                 ...
                             </div>
                         </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-6 order-md-0">
+                        <div class="d-flex align-items-center">
+                            <h1 class="pe-2">Boolean</h1>
+                            <span class="py-1 px-2 ms-bg-span">Piano blaze</span>
+                        </div>
+                        <span class="py-1 px-2 ms-bg-span">3 app</span>
+                        <i class="fa-solid fa-angles-right"></i>
+                        <span class="py-1 px-2 ms-bg-span ms-none">+</span>
+                        <span class="py-1 px-2 ms-bg-span ms-ghost">Boolean mobile app</span>
+                        <span class="py-1 px-2 ms-bg-span ms-ghost">Boolean web app</span>
+                        <span class="py-1 px-2 ms-bg-span ms-ghost">Boolean blog app</span>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-3 order-md-1">
+                        <p>Studenti online negli ultimi 30 minuti</p>
+                        <p class="fs-4">125</p>
                     </div>
                 </div>
             </div>
