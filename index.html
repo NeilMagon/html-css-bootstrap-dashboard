@@ -18,22 +18,32 @@
     <!-- HEADER -->
     <header class="d-flex align-items-center">
         <div class="container-fluid">
+            <!-- NAV -->
             <nav class="row align-items-center">
-                <div class="col-auto col-2 col-md-1 col-lg-2">
+                <!-- NAV-LEFT -->
+                <div class="col-auto col-1 col-md-1 col-lg-2">
                     <img class="ms-small-logo img-fluid" src="img/mobile-logo.png" alt="logo">
                     <img class="ms-big-logo img-fluid" src="img/logo.svg" alt="logo">
                 </div>
+                <!-- /NAV-LEFT -->
+                <!-- NAV-SEARCH -->
                 <div class="col">
                     <div class="ms-search-bar align-items-center d-flex px-2 ms-bg-lightgrey">
                         <i class="fa-solid fa-magnifying-glass pe-2"></i>
                         <input class="ms-search-bar-input ms-bg-lightgrey" type="text" placeholder="Prova a cercare: Lezioni di Laravel">
                     </div>
                 </div>
+                <!-- /NAV-SEARCH -->
+                <!-- NAV-RIGHT -->
                 <div class="col-auto">
                     <div class="d-flex align-items-center">
                         <div class="ms-fa-block">
                             <i class="fa-solid fa-list"></i>
+                        </div>
+                        <div class="ms-fa-block">
                             <i class="fa-solid fa-circle-question"></i>
+                        </div>
+                        <div class="ms-fa-block">
                             <i class="fa-solid fa-ellipsis-vertical"></i>
                         </div>
                         <div class="dropdown">
@@ -46,12 +56,39 @@
                         </div>
                     </div>
                 </div>
+                <!-- /NAV-RIGHT -->
             </nav>
+            <!-- /NAV -->
         </div>
     </header>
     <!-- /HEADER -->
     <!-- MAIN -->
-    <main></main>
+    <main>
+        <!-- ASIDE -->
+        <aside id="ms-aside" class="px-3 py-4 ms-bg-darkblue">
+            <div class="container-fluid ">
+                <div class="row align-items-center gy-3">
+                    <div class="text-white">
+                        <i class="fa-solid fa-house"></i>
+                        <span>Home</span>
+                    </div>
+                    <div class="text-white">
+                        <i class="fa-solid fa-chart-simple"></i>
+                        <span>Stats</span>
+                    </div>
+                    <div class="text-white">
+                        <i class="fa-solid fa-signal"></i>
+                        <span>Signals</span>
+                    </div>
+                    <div class="text-white mb-0">
+                        <i class="fa-solid fa-gear"></i>
+                        <span class="text-white">Admin</span>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <!-- /ASIDE -->
+    </main>
     <!-- /MAIN -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>

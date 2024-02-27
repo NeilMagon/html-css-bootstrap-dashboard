@@ -25,6 +25,25 @@ header{
     color: #ff8f00;
     cursor: pointer;
 }
+/* MAIN */
+main{
+    height: calc(100vh - 4.375rem);
+}
+#ms-aside{
+    width: 4.375rem;
+    background-image: url(img/sidebar-bg.png);
+    flex-shrink: 0;
+    height: 100%;
+}
+#ms-aside ul{
+    list-style: none;
+}
+#ms-aside span{
+    display: none;
+}
+.ms-bg-darkblue{
+    background-color: #051e34;
+}
 /* MEDIAQUERI */
 @media (min-width: 992px) {
     .ms-small-logo{
@@ -35,5 +54,11 @@ header{
     }
     .ms-fa-block{
         display: block;
+    }
+    #ms-aside{
+        width: 9.375rem;
+    }
+    #ms-aside span{
+        display: inline-block;
     }
 }
