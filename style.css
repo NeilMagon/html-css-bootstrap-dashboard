@@ -1,0 +1,18 @@
+/* HEADER */
+header{
+    height: 4.375rem;
+}
+.ms-search-bar{
+    height: 2.5rem;
+    border-radius: .3125rem;
+}
+.ms-bg-lightgrey{
+    background-color: #e5e5e5;
+}
+.ms-search-bar-input{
+    width: 100%;
+    border: none;
+}
+.ms-search-bar-input:focus-visible{
+    outline: none;
+}
