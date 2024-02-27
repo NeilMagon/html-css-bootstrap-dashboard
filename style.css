@@ -2,6 +2,9 @@
 header{
     height: 4.375rem;
 }
+.ms-big-logo{
+    display: none;
+}
 .ms-search-bar{
     height: 2.5rem;
     border-radius: .3125rem;
@@ -12,7 +15,29 @@ header{
 .ms-search-bar-input{
     width: 100%;
     border: none;
-}
-.ms-search-bar-input:focus-visible{
     outline: none;
+}
+.ms-fa-block{
+    color: #5b5858;
+}
+.fa-bell{
+    color: #ff8f00;
+    cursor: pointer;
+}
+/* MEDIAQUERI */
+@media (min-width: 768px){
+    .ms-fa-block{
+        display: none;
+    }
+}
+@media (min-width: 992px) {
+    .ms-small-logo{
+        display: none;
+    }
+    .ms-big-logo{
+        display: block;
+    }
+    .ms-fa-block{
+        display: block;
+    }
 }
