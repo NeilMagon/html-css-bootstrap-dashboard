@@ -2,6 +2,9 @@
 header{
     height: 4.375rem;
 }
+.ms-small-logo{
+    height: 3.125rem;
+}
 .ms-big-logo{
     display: none;
 }
