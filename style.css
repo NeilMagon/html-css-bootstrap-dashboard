@@ -68,6 +68,9 @@ main{
 .ms-ghost{
     display: none;
 }
+.offcanvas{
+    --bs-offcanvas-width: 100%;
+}
 /* MAIN-CONTENT */
 .ms-img-table{
     height: 1.5625rem;
@@ -85,13 +88,6 @@ table tr th:not(:first-child), table tr td:not(:first-child) {
 .ms-ghost-table{
     display: none;
 }
-.accordion-button:focus, .form-check-input:focus{
-    box-shadow: none;
-}
-.accordion-button:not(.collapsed){
-    color: inherit;
-    background-color: inherit;
-}
 .form-check-input:focus{
     border-color: #dee2e6;
 }
@@ -105,6 +101,9 @@ table tr th:not(:first-child), table tr td:not(:first-child) {
     }
     .ms-ghost-table{
         display: table-cell;
+    }
+    .offcanvas{
+        --bs-offcanvas-width: 60%;
     }
 }
 @media (min-width: 992px) {

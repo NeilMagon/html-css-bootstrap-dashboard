@@ -88,11 +88,81 @@
                             <button class="btn ms-btn text-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">+</button>
                             <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                                 <div class="offcanvas-header">
-                                    <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                                    <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                                 </div>
                                 <div class="offcanvas-body">
-                                    ...
+                                    <div class="row">
+                                        <div class="col-12 col-md-6">
+                                        <label for="name">Name</label>
+                                        <input id="name" type="text" class="form-control"  aria-label="First name">
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                        <label for="lastname">Lastname</label>
+                                        <input id="lastname" type="text" class="form-control" aria-label="Last name">
+                                        </div>
+                                    </div>
+                                    <div class="row mt-3">
+                                        <div class="col-12 col-md-6 input-group-test">
+                                            <label for="email">Email</label>
+                                            <div class="d-flex">
+                                                <span class="input-group-text">@</span>
+                                            <input id="email" type="email" class="form-control" aria-label="email">
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <label for="password">Password</label>
+                                            <input id="password" type="password" class="form-control" aria-label="password">
+                                        </div>
+                                    </div>
+                                    <div class="rom mt-3">
+                                        <div class="col-12">
+                                            <label for="address">Indirizzo</label>
+                                            <input id="address" type="text" class="form-control" id="inputAddress">
+                                        </div>
+                                    </div>
+                                    <div class="row mt-3">
+                                        <div class="col-12 col-md-6 ">
+                                            <label for="city">Città</label>
+                                            <input id="city" type="text" class="form-control" id="inputCity">
+                                          </div>
+                                          <div class="col-12 my-2 my-md-0 col-md-4">
+                                            <label for="state">Stato</label>
+                                            <select id="state" class="form-select">
+                                              <option selected>Choose...</option>
+                                              <option>Italia &#127829;</option>
+                                              <option>Francia &#129326;</option>
+                                              <option>Svizzera &#128176;</option>
+                                              <option>Vamos a México &#127790;</option>
+                                            </select>
+                                          </div>
+                                          <div class="col-12 col-md-2">
+                                            <label for="zip">Cap</label>
+                                            <input id="Cap" type="text" class="form-control" id="inputZip">
+                                          </div>
+                                    </div>
+                                    <div class="row mt-3">
+                                        <div class="col-12">
+                                            <label for="file">Scegli file</label>
+                                            <input id="file" class="form-control" type="file" id="formFile">
+                                        </div>
+                                    </div>
+                                    <div class="row mt-3">
+                                        <div class="col">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                  seleziona per proseguire
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mt-3">
+                                        <div class="col-12">
+                                            <button type="button" class="btn btn-primary">Salva</button>
+                                            <button type="button" class="btn btn-warning">Svuota</button>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
