@@ -35,7 +35,7 @@ main{
 }
 /* MAIN-ASIDE */
 #ms-aside{
-    width: 4.375rem;
+    width: 5.375rem;
     background-image: url(img/sidebar-bg.png);
     flex-shrink: 0;
     height: 100%;
@@ -67,10 +67,37 @@ main{
 .ms-ghost{
     display: none;
 }
+/* MAIN-CONTENT */
+.ms-img-table{
+    height: 1.5625rem;
+}
+.ms-btn-table{
+    border: 1px solid #6c757d;
+    color: #6c757d;
+}
+table tr td:first-child {
+    width: 38%;
+}
+table tr th:not(:first-child), table tr td:not(:first-child) {
+    text-align: center;
+}
+.ms-ghost-table{
+    display: none;
+}
+.accordion-button:focus{
+    box-shadow: none;
+}
+.accordion-button:not(.collapsed){
+    color: inherit;
+    background-color: inherit;
+}
 /* MEDIAQUERI */
 @media (min-width: 767.98px){
     #ms-main-header{
         height: 9.5rem;
+    }
+    .ms-ghost-table{
+        display: table-cell;
     }
 }
 @media (min-width: 992px) {
