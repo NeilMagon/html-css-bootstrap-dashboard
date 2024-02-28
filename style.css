@@ -84,12 +84,18 @@ table tr th:not(:first-child), table tr td:not(:first-child) {
 .ms-ghost-table{
     display: none;
 }
-.accordion-button:focus{
+.accordion-button:focus, .form-check-input:focus{
     box-shadow: none;
 }
 .accordion-button:not(.collapsed){
     color: inherit;
     background-color: inherit;
+}
+.form-check-input:focus{
+    border-color: #dee2e6;
+}
+.ms-border{
+    border-top: var(--bs-card-border-width) solid var(--bs-card-border-color);;
 }
 /* MEDIAQUERI */
 @media (min-width: 767.98px){
