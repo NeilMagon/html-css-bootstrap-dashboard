@@ -94,6 +94,9 @@ table tr th:not(:first-child), table tr td:not(:first-child) {
 .ms-border{
     border-top: var(--bs-card-border-width) solid var(--bs-card-border-color);;
 }
+a{
+    color: #fff;
+}
 /* MEDIAQUERI */
 @media (min-width: 767.98px){
     #ms-main-header{
