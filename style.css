@@ -38,11 +38,15 @@ main{
     width: 5.375rem;
     background-image: url(img/sidebar-bg.png);
     flex-shrink: 0;
-    height: 100%;
+    height: 150%;
 }
 #ms-aside ul{
     list-style: none;
     padding: 0;
+}
+#ms-aside ul li a:hover{
+    background-color: lightgray;
+    opacity: 0.9;
 }
 #ms-aside span{
     display: none;
@@ -54,6 +58,9 @@ main{
 #ms-main-header{
     height: 16.25rem;
     width: 100%;
+}
+#ms-main-header .btn:hover{
+    background-color: black;
 }
 .ms-bg-blue{
     background-color: #1b72e8;
