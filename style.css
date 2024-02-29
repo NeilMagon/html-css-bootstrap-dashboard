@@ -29,7 +29,7 @@ header{
     cursor: pointer;
 }
 /* MAIN */
-main{
+.ms-content{
     height: calc(100vh - 4.375rem);
     overflow-y: auto;
 }
@@ -38,7 +38,6 @@ main{
     width: 5.375rem;
     background-image: url(img/sidebar-bg.png);
     flex-shrink: 0;
-    height: 150%;
 }
 #ms-aside ul{
     list-style: none;
